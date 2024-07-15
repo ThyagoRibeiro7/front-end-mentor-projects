@@ -1,0 +1,104 @@
+@media (max-width: 1010px){
+    .main_container .apresentation_container{
+        column-gap: 10rem;
+    }
+
+    .main_container{
+        padding: 1rem;
+    }
+
+    .main_container .apresentation_container{
+        column-gap: 5rem;
+    }
+}
+
+@media (max-width: 929px){
+    .main_container .apresentation_container{
+        grid-template-columns: 1fr;
+    }
+
+    .apresentation_container .apresentation_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .apresentation_container .apresentation_text p{
+        max-width: 50ch;
+    }
+
+    .rewiew_card_container{
+        margin: 0 auto;
+    }
+
+    .rewiew_card_container .review_cards:nth-child(2),
+    .rewiew_card_container .review_cards:nth-child(3){
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 765px){
+    body{
+        height: auto;
+        background: url('../images/bg-pattern-top-mobile.svg') no-repeat;
+    }
+
+    .main_container{
+        padding: 8rem 2.4rem 9.9rem 2.4rem;
+        row-gap: 3.9rem;
+    }
+
+    .testimonial_container{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    .testimonial_container .card_container{
+        margin-bottom: 1.6rem;
+        max-width: 32.7rem;
+    }
+
+    .testimonial_container .card_container:nth-child(1),
+    .testimonial_container .card_container:nth-child(2){
+        position: relative;
+        bottom: 0;
+    }
+}
+
+
+@media (max-width: 454px){
+
+    .rewiew_card_container .review_cards{
+        flex-direction: column;
+        align-items: center;
+        padding: 1.6rem 0;
+        max-width: 100%;
+        width: 32.7rem;
+    }
+
+    .review_cards .stars_container img{
+        width: 2rem;
+    }
+
+    .rewiew_card_container .review_cards p{
+        margin-left: 0;
+        margin-top: 1.3rem;
+    }
+
+    .apresentation_container .apresentation_text h1{
+        max-width: 10ch;
+    }
+
+    .testimonial_container .card_container{
+        width: 32.7rem;
+        max-width: 100%;
+    }
+
+    .apresentation_container .apresentation_text p{
+        max-width: 28ch;
+        font-size: 1.8rem;
+    }
+}

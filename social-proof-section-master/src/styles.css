@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+.main_container{
+    display: grid;
+    row-gap: 7.4rem;
+    max-width: 1110px;
+    padding: 0.5rem;
+}
+
+.main_container .apresentation_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16rem;
+}
+
+.apresentation_container .apresentation_text{
+    color: var(--dark-color);
+}
+
+.apresentation_container .apresentation_text h1{
+    font-size: clamp(4rem, 5vw, 5.9rem);
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 3rem;
+}
+
+.apresentation_container .apresentation_text p{
+    font-size: clamp(1.8rem, 5vw, 1.8rem);
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.rewiew_card_container .review_cards{
+    display: flex;
+    max-width: 100%;
+    width: 44.4rem;
+    padding: 2rem 3.1rem;
+    margin-bottom: 1.6rem;
+    border-radius: 1rem;
+    background-color: #F7F2F8;
+}
+
+.review_cards .stars_container{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.review_cards .stars_container img{
+    max-width: 100%;
+}
+
+.rewiew_card_container .review_cards p{
+    font-weight: 600;
+    margin-left: 3rem;
+    letter-spacing: -0.5px;
+    color: var(--dark-color);
+}
+
+.rewiew_card_container .review_cards:nth-child(1){
+    margin-top: 3.3rem;
+}
+
+.rewiew_card_container .review_cards:nth-child(2){
+    margin-left: 4.8rem;
+    margin-right: 4.7rem;
+}
+
+.rewiew_card_container .review_cards:nth-child(3){
+    margin-left: 9.5rem;
+}
+
+.testimonial_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    max-width: 100%;
+}
+
+.testimonial_container .card_container{
+    padding: 3.8rem 3.1rem;
+    color: #fff;
+    background-color: var(--dark-color);
+    border-radius: 0.8rem;
+}
+
+.testimonial_container .card_container:nth-child(1){
+    position: relative;
+    bottom: 3.2rem;
+}
+
+.testimonial_container .card_container:nth-child(2){
+    position: relative;
+    bottom: 1.6rem;
+}
+
+.card_container .header_container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.9rem;
+}
+
+.card_container .header_container span{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #D56EA5;
+}
+
+.card_container .header_container img{
+    width: 4.2rem;
+    margin-right: 2.2rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+/* Font Import */
+
+:root{
+    --paragraph-color: hsl(193, 38%, 86%);
+    --text-color: hsl(150, 100%, 66%);
+    --card-bg-color: hsl(217, 19%, 24%);
+    --font-primary: 'Manrope', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--font-primary);
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--card-bg-color);
+    width: 750px;
+    border-radius: 20px;
+    padding: 68px 70px;
+    position: relative;
+}
+
+.container > h1{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--text-color);
+}
+
+.container p{
+    text-align: center;
+    font-size: 3.8rem;
+    padding: 39px 0 55px 0;
+    color: var(--paragraph-color);
+}
+
+picture img{
+    max-width: 100%;
+}
+
+button{
+    background-color: var(--text-color);
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -35px;
+}
+
+button:hover{
+    box-shadow: 0 0 20px var(--text-color);
+}

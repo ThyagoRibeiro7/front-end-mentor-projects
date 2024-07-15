@@ -1,0 +1,54 @@
+/* VARIABLES */
+:root{
+    --dark-color: hsl(300, 43%, 22%);
+    --soft-color: hsl(333, 80%, 67%);
+    --grayish-color: hsl(303, 10%, 53%);
+    --light-color: #fff;
+    /* --paragraph-fs: 1.8rem; */
+    /* --paragraph-fw: 500; */
+}
+/* VARIABLES */
+
+/* RESET PROPERTIES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    background: url('../images/bg-pattern-top-desktop.svg') no-repeat;
+    font-family: "League Spartan", sans-serif;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+/* RESET PROPERTIES */
+
+/* UTILITY */
+
+.background img, source{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* UTILITY */
